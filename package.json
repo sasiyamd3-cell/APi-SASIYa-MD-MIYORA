@@ -1,0 +1,39 @@
+{
+  "name": "miyora",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node setup.js && next dev",
+    "build": "node setup.js && next build",
+    "start": "next start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie": "^0.6.0",
+    "jose": "^5.6.3",
+    "mongoose": "^8.5.0",
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cookie": "^0.6.0",
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "jest": "^29.7.0",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4",
+    "ts-jest": "^29.2.2",
+    "typescript": "^5.5.3"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testMatch": ["**/__tests__/**/*.test.ts"]
+  }
+}
